@@ -1,0 +1,93 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.structure-section,
+.form-section,
+.info-section,
+.log-section {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+code {
+    font-weight: 700;
+}
+
+.first-block,
+.log-section {
+    min-width: 800px;
+    min-height: 300px;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.structure-section {
+    background-color: lightgray;
+}
+
+.structure-section p,
+.log-section p,
+.info-section p {
+    font-family: "Courier New";
+}
+
+.wrapper-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.structure-section,
+.wrapper-section {
+    width: 400px;
+}
+
+.form-section {
+    background-color: darkgray;
+}
+
+.form-section form {
+    margin-top: 10px;
+}
+
+.info-section {
+    background-color: gold;
+    flex-grow: 1;
+}
+
+.log-section {
+    background-color: black;
+    color: white;
+}
+
+.info-section-list {
+    min-width: 800px;
+}
+
+
+
+.info-section-list a {
+    display: block;
+    margin-top: 10px;
+    font-family: "Courier New";
+    font-weight: 700;
+}
